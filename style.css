@@ -227,9 +227,10 @@ li:hover {
 }
 .method {
   max-width: 1115px;
-  height: 4103px;
+  height: 500px;
   background-color: aqua;
   margin: auto;
+  display: flex;
 }
 .method-header {
   display: flex;
@@ -243,11 +244,16 @@ li:hover {
   display: flex;
   gap: 10px;
 }
-.calendar-but {
-  width: 103px;
+.calendar-but div {
+  width: 95px;
   height: 7px;
   background-color: lightcoral;
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.breaking-news {
+  width: 410px;
+  height: 100%;
+  background-color: lightcoral;
 }
