@@ -239,8 +239,15 @@ li:hover {
   width: 20px;
   height: 20px;
 }
+.calendar {
+  display: flex;
+  gap: 10px;
+}
 .calendar-but {
   width: 103px;
   height: 7px;
   background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
